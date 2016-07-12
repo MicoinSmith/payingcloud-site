@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*=================礼品中心========================*/
+
+.gift img{
+  width: 40px;
+  float: left;
+  margin-right: 10px;
+}

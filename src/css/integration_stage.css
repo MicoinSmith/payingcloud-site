@@ -1,0 +1,254 @@
+*{
+  /*background: #f0f0f0;*/
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  font-family: "Microsoft Yahei";
+  font-size: 12px;
+  font-weight: 400;
+}
+ul li{
+  padding: 0;
+  list-style: none;
+}
+/*some start*/
+.color_ddd{
+  color: #ddd;
+}
+.float_left{
+  float: left;
+}
+.center{
+  text-align: center;
+  margin: auto;
+}
+.font_size38{
+  font-size: 38px;
+}
+.green{
+  color: #6bb56f;
+}
+.width1156{
+  width: 1156px;
+  margin: 0 auto;
+}
+.margin_center{
+  margin: 0 auto;
+}
+/*some stop*/
+/*header部分start*/
+.header{
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: #2b2c30;
+  z-index: 51;
+  border-bottom: 1px solid #666;
+}
+.header_logo{
+  float: left;
+}
+.header_logo>a>img{
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+/*继承支付部分*/
+#Integration_stage_font{
+  /*background: #1c1e23;*/
+  border-bottom: 2px solid #6bb56f;
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.nav_ul{
+  margin-top: 30px;
+  float: right;
+  height: 50px;
+}
+.nav_ul>li{
+  float: left;
+}
+.nav_ul>li:hover{
+  background: #1c1e23;
+  border-bottom: 2px solid #6bb56f;
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.nav_ul>li>a{
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 15px;
+  height: 50px;
+  line-height: 50px;
+}
+.nav_ul>li:hover a{
+  color: #6bb56f;
+}
+/*header部分stop*/
+/*article部分start*/
+.article{
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+
+
+
+
+/*section start*/
+.section{
+  width: 100%;
+  height: 600px;
+  background: #2B2C30;
+}
+.section_images_box{
+  margin: auto;
+  width: 1142px;
+  height: 600px;
+}
+/*section stop*/
+/*article部分stop*/
+/*footer部分start*/
+.footer{
+  width: 100%;
+  height: 256px;
+  background: #333439;
+}
+.footer_block{
+  width: 1156px;
+  height: 211px;
+}
+.foot_content{
+  width:256px;
+  height: 150px;
+  margin-top: 30px;
+}
+.foot_content>div>h3,.about_us{
+  font-family: "微软雅黑";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ddd;
+  margin-left: 20px;
+}
+.footer_block>div>p,.footer_block>div>div,.footer_block>div>div>span{
+  color: #ddd;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.margin-left20{
+  margin-left: 20px;
+}
+.footer_logo{
+  width: 345px;
+}
+/*.footer_block>div:nth-child(2) p{
+
+}*/
+.footer_block>div:hover{
+  background: #545454;
+  border: 0;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  transform: translate3d(0,-2px,0);
+  -webkit-transform: translate3d(0,-2px,0);
+  transition: all .2s linner;
+  -webkit-transition: all .2s linear;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  transform: translate3d(0,-2px,0);
+  -webkit-transform: translate3d(0,-2px,0);
+  transition: all .2s linner;
+  -webkit-transition: all .2s linear;
+
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.footer_one{
+  width: 280px;
+}
+.num_box{
+  margin-top: 20px;
+  width: 280px;
+  height: 30px;
+}
+.num_box>p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.p_tel{
+  margin-left: 117px;
+}
+/*.footer_two_welcome{
+  font-family: "微软雅黑";
+  font-weight: 400;
+  color: #ddd;
+  margin-left: 10px;
+}*/
+/*.footer_two_welcome>h3{
+  margin-left: 12px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+}*/
+.footer_two>img{
+  margin-left: 60px;
+  width: 150px;
+}
+.footer_three_welcome>h3{
+  margin-left: 12px;
+}
+/*.footer_three_welcome{
+  font-family: "微软雅黑";
+  font-weight: 400;
+  color: #ddd;
+  margin-left: 10px;
+}*/
+.footer_three,.footer_two{
+  margin-left: 55px;
+}
+.footer_four{
+  width: 150px;
+  margin-left: 100px;
+}
+.footer_four>div>img{
+  width: 150px;
+}
+.footer_bottom{
+  height: 70px;
+  background: #1a1a1a;
+}
+.icp_box{
+  color: #ddd;
+  font-size: 12px;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 20px;
+}
+.icp_box>p{
+  font-size: 14px;
+}
+
+
+
+
+
+
+/*=================礼品中心========================*/
+
+.gift img{
+  width: 40px;
+  float: left;
+  margin-right: 10px;
+}
