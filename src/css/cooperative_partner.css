@@ -214,11 +214,13 @@ ul li{
   background: #1a1a1a;
 }
 .icp_box{
+  width: 300px;
   color: #ddd;
   font-size: 12px;
-  margin-top: 20px;
   position: absolute;
-  margin-left: 20px;
+  margin-left: 50%;
+  left: -150px;
+  margin-top: 20px;
 }
 .icp_box>p{
   font-size: 14px;
