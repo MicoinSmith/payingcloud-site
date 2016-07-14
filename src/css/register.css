@@ -59,7 +59,7 @@ ul li{
 /*继承支付部分*/
 #register_font{
   /*background: #1c1e23;*/
-  border-bottom: 2px solid #6bb56f;
+  border-bottom: 3px solid #6bb56f;
   -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
   -webkit-transform: translate3d(0, -2px, 0);
@@ -68,7 +68,7 @@ ul li{
   transition: all .2s linear;
 }
 .nav_ul{
-  margin-top: 30px;
+  margin-top: 28px;
   float: right;
   height: 50px;
 }
@@ -77,7 +77,7 @@ ul li{
 }
 .nav_ul>li:hover{
   background: #1c1e23;
-  border-bottom: 2px solid #6bb56f;
+  border-bottom: 3px solid #6bb56f;
   -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
   -webkit-transform: translate3d(0, -2px, 0);
@@ -106,7 +106,7 @@ ul li{
 /*register start*/
 .register_box{
   width: 360px;
-  height: 400px;
+  height: 360px;
   background: #4a4a4a;
   margin-left: 50%;
   left: -180px;
@@ -124,27 +124,29 @@ ul li{
   font-weight: 500;
 }
 .register_title_p{
-  font-size: 14px;
+  font-size: 16px;
   width: 320px;
-  margin: 20px auto;
+  margin: 30px auto;
   text-align: left;
 }
 .register_input_box{
   width: 320px;
-  height: 30px;
+  height: 35px;
   margin: auto;
   background: #fff;
-  border: 2px solid #c0c0c0;
-  border-radius: 10px;
+  /*border: 2px solid #c0c0c0;*/
+  /*border-radius: 10px;*/
 }
 .register_input{
   width: 304px;
   height: 20px;
-  margin-top: 5px;
+  margin-top: 7px;
   border: 0px;
   font-family: "microsoft yahei";
   font-weight: 400;
+  text-align: center;
   color: #969696;
+  font-size: 16px;
 }
 .register_input:focus{
   outline: medium;
@@ -174,16 +176,16 @@ ul li{
   display: inline-block;
 }
 .register_button{
-  margin-top: -15px;
-  width: 300px;
+  width: 320px;
   height: 35px;
-  border-radius: 15px;
+  /*border-radius: 15px  qq11111111111111;*/
   background: #fff;
   font-family: "microsoft yahei";
   font-size: 18px;
   font-weight: 400;
-  color: 333;
+  color: #333;
   outline: medium;
+  border: none;
 }
 
 .hava_a_try{
@@ -228,10 +230,11 @@ ul li{
   color: #ddd;
   margin-left: 20px;
 }
-.footer_block>div>p,.footer_block>div>div,.footer_block>div>div>span{
+.footer_block>div>p,.footer_block>div>div,.footer_block>div>div>span,.foot_content p a{
   color: #ddd;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 12px;
+  font-family: "microsoft yahei";
 }
 .margin-left20{
   margin-left: 20px;
@@ -242,7 +245,7 @@ ul li{
 /*.footer_block>div:nth-child(2) p{
 
 }*/
-.footer_block>div:hover{
+/*.footer_block>div:hover{
   background: #545454;
   border: 0;
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -260,21 +263,22 @@ ul li{
 
   border-left: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-}
+}*/
 .footer_one{
   width: 280px;
 }
 .num_box{
   margin-top: 20px;
   width: 280px;
-  height: 30px;
+  height: 20px;
+  font-family: "microsoft yahei";
 }
 .num_box>p{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 .p_tel{
-  margin-left: 117px;
+  margin-left: 128px;
 }
 /*.footer_two_welcome{
   font-family: "微软雅黑";

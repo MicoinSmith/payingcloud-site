@@ -20,3 +20,27 @@
  //     count--;
  //   })
  // }
+function check(){
+  var email = document.getElementById("register_email").value;
+  if (true) {
+    var token= ' asdas';
+         $.ajax({
+             url:'/path/to/file',
+             //type: 'GET',
+             //dataType: 'json',
+             data:{'email':'sadasd','token':token},
+             success:function(){
+
+             },
+             error:function(){
+
+             }
+             setTimeout(function () {
+
+             }, 1000),
+             compelte:function(){
+
+             }
+         })
+  }
+}

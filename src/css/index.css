@@ -207,7 +207,7 @@ ul li{
 .banner_list>a>img{
   height: 100%;
   width: 100%;
-  min-width: 1366px;
+  min-width: 1280px;
 }
 .banner_introduce{
   margin-top: 20px;
@@ -565,10 +565,11 @@ ul li{
   color: #ddd;
   margin-left: 20px;
 }
-.footer_block>div>p,.footer_block>div>div,.footer_block>div>div>span{
+.footer_block>div>p,.footer_block>div>div,.footer_block>div>div>span,.foot_content p a{
   color: #ddd;
-  margin-bottom: 10px;
-  font-size: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "microsoft yahei";
 }
 .margin-left20{
   margin-left: 20px;
@@ -579,7 +580,7 @@ ul li{
 /*.footer_block>div:nth-child(2) p{
 
 }*/
-.footer_block>div:hover{
+/*.footer_block>div:hover{
   background: #545454;
   border: 0;
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -597,21 +598,22 @@ ul li{
 
   border-left: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-}
+}*/
 .footer_one{
   width: 280px;
 }
 .num_box{
   margin-top: 20px;
   width: 280px;
-  height: 30px;
+  height: 20px;
+  font-family: "microsoft yahei";
 }
-.num_box>p{
-  font-size: 16px;
+.num_box p{
+  font-size: 14px;
   font-weight: 400;
 }
 .p_tel{
-  margin-left: 117px;
+  margin-left: 128px;
 }
 /*.footer_two_welcome{
   font-family: "微软雅黑";
