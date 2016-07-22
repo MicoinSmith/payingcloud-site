@@ -23,24 +23,24 @@
 function check(){
   var email = document.getElementById("register_email").value;
   if (true) {
-    var token= ' asdas';
+    var token= 'abc';
          $.ajax({
-             url:'/path/to/file',
-             //type: 'GET',
+             type: 'post',
+             url:'https://dashboard.pingxx.com/auto/user/register/',
              //dataType: 'json',
-             data:{'email':'sadasd','token':token},
-             success:function(){
-
+             data:{'email':email,'token':token},
+             success:function(data){
+              alert("Fine,it's ok!")
              },
-             error:function(){
-
+             error:function(request){
+               alert("well,there have something wrong~!")
              }
-             setTimeout(function () {
-
-             }, 1000),
-             compelte:function(){
-
-             }
+            //  setTimeout(function () {
+             //
+            //  }, 1000),
+            //  compelte:function(){
+             //
+            //  }
          })
   }
 }

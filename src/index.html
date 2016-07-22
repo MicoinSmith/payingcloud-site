@@ -1,33 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="keywords" content="PAYINGCLOUD,PAY,PING">
     <title>Paying</title>
     <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
     <script type="text/javascript" src="js/index.js"></script>
+
+    <!-- [if lt IE9]>
+    <script>
+       (function() {
+         if (!
+         /*@cc_on!@*/
+         0) return;
+         var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(‘, ‘);
+         var i= e.length;
+         while (i--){
+             document.createElement(e[i])
+         }
+    })()
+    </script>
+    <[endif] -->
+
+    <!-- [if lt IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <[endif] -->
+
+    <!--[if lte IE 8]>
+    <noscript>
+         <style>.html5-wrappers{display:none!important;}</style>
+         <div class="ie-noscript-warning">您的浏览器禁用了脚本，请<a href="">查看这里</a>来启用脚本!或者<a href="/?noscript=1">继续访问</a>.
+         </div>
+    </noscript>
+    <![endif]-->
+
+
+    <!-- <script type="text/javascript">
+    $(document).ready(function(){
+      $("#register_button").click(function(){
+        alert('ok');
+      });
+    });
+    $(document).ready(function(){
+      $("hava_a_try").click(function(){
+        var user.email =
+      })
+    }
+
+    </script> -->
+
   </head>
   <body>
     <header class="header">
-      <div class="width1156">
-        <nav class="nav_nav">
-          <div class="header_logo">
-            <a href="index.html"><img src="images/index_logo.png" alt="" /></a>
-          </div>
-          <ul class="nav_ul">
-            <!-- <li><a href="#">Demo</a></li> -->
-            <li><a href="html/integrate_pay.html">集成支付</a></li>
-            <li><a href="html/Integration_stage.html">集成分期</a></li>
-            <li><a href="html/cooperative_partner.html">合作伙伴</a></li>
-            <!-- <li><a href="#">文档</a></li>
-            <li><a href="#">下载</a></li>
-            <li><a href="#">价格</a></li> -->
-            <li class="gift"><a href="html/gift.html"><img src="images/gift.svg" alt="">礼品中心</a></li>
-            <!-- <li><a href="html/register.html">注册</a></li>
-            <li><a href="#">登录</a></li> -->
-          </ul>
-        </nav>
-      </div>
+      <nav class="nav_nav">
+        <div class="header_logo">
+          <a href="index.html"><img src="images/index_logo.png" alt="" /></a>
+        </div>
+        <ul class="nav_ul">
+          <!-- <li><a href="#">Demo</a></li> -->
+          <li><a href="html/integrate_pay.html">集成支付</a></li>
+          <li><a href="html/Integration_stage.html">集成分期</a></li>
+          <li><a href="html/cooperative_partner.html">合作伙伴</a></li>
+          <!-- <li><a href="#">文档</a></li>
+          <li><a href="#">下载</a></li>
+          <li><a href="#">价格</a></li> -->
+          <li class="gift"><a href="html/gift.html"><img src="images/gift.svg" alt="">礼品中心</a></li>
+          <!-- <li><a href="html/register.html">注册</a></li>
+          <li><a href="#">登录</a></li> -->
+        </ul>
+      </nav>
     </header>
     <article class="article">
       <div class="part_a">
@@ -47,11 +93,7 @@
                 <p class="paying_title_c">我们帮您从容连接一切...</p>
                 <a href=""><img src="images/banner.jpg" alt=""></a>
               </div>
-              <!-- <div class="banner_list banner_4th">
-                <p class="paying_title_d">Paying可以帮您————从容支付</p>
-                <p class="paying_title_d2">可以帮您淡定分期，可以...</p>
-                <a href=""><img src="images/tryc.jpg" alt=""></a>
-              </div> -->
+
             </div>
             <!-- <div class="banner_buttun">
               <i id="turn_left" class="turn_left float_left"></i>
@@ -63,178 +105,110 @@
               <a href=""><i></i></a>
               <a href=""><i></i></a>
             </div>
-            <!-- <ul class="banner_introduce">
-              <li>
-                <div class="banner_introduce_item">
-                  <div class="margin_center center font_size38">
-                      <span class="color_ddd center">320</span>
-                  </div>
-                  <i class=""></i>
-                  <h3 class="color_ddd center">Happy Clients</h3>
-                </div>
-              </li>
-              <li>
-                <div class="banner_introduce_item">
-                  <div class="margin_center center font_size38">
-                      <span class="color_ddd center">320</span>
-                  </div>
-                  <i class=""></i>
-                  <h3 class="color_ddd center">Happy Clients</h3>
-                </div>
-              </li>
-              <li>
-                <div class="banner_introduce_item">
-                  <div class="margin_center center font_size38">
-                      <span class="color_ddd center">320</span>
-                  </div>
-                  <i class=""></i>
-                  <h3 class="color_ddd center">Happy Clients</h3>
-                </div>
-              </li>
-              <li>
-                <div class="banner_introduce_item">
-                  <div class="margin_center center font_size38">
-                      <span class="color_ddd center">320</span>
-                  </div>
-                  <i class=""></i>
-                  <h3 class="color_ddd center">Happy Clients</h3>
-                </div>
-              </li>
-            </ul> -->
-          </div>
-          <!-- <div class="width1156">
 
-          </div> -->
+          </div>
         </section>
         <section class="a_main">
-          <div class="width1156">
 
+          <div class="row">
 
-
-            <div class="row">
-
-    					<!-- section title -->
-              <div class="margin-top"></div>
-    					<!-- <div class="about_us">
-    						<h2>How to <span class="green">use it</span></h2>
-    						<div class="border_about_us"></div>
-    					</div> -->
-    					<!-- /section title -->
-              <div class="row_box">
-                <div class="row_box_card">
-                  <!-- <a href="#"><img src="" alt="" />
-                    <div class="icon_box">
-      							</div>
-                  </a> -->
-                  <div class="">
-                    <img src="images/register.svg" alt="" />
-                  </div>
-                  <p><h3 class="h3_we">1、注册账户</h3></p>
-                  <!-- <p class="p_we"></p> -->
+  					<!-- section title -->
+            <div class="margin-top"></div>
+  					<!-- <div class="about_us">
+  						<h2>How to <span class="green">use it</span></h2>
+  						<div class="border_about_us"></div>
+  					</div> -->
+  					<!-- /section title -->
+            <div class="row_box">
+              <div class="row_box_card">
+                <!-- <a href="#"><img src="" alt="" />
+                  <div class="icon_box">
+    							</div>
+                </a> -->
+                <div class="">
+                  <img src="images/register.svg" alt="" />
                 </div>
-                <div class="row_box_card">
-                  <!-- <a href="#"><img src="" alt="" />
-                    <div class="icon_box">
-      							</div>
-                  </a> -->
-                  <div class="">
-                    <img src="images/edit.svg" alt="" />
-                  </div>
-                  <p><h3 class="h3_we">2、上传资料</h3></p>
-                  <p class="p_we">申请开户</p>
-                </div>
-      					<div class="row_box_card">
-      					  <!-- <a href="#"><img src="" alt="" />
-                    <div class="icon_box">
-      							</div>
-                  </a> -->
-                  <div class="">
-                    <img src="images/analysis.svg" alt="" />
-                  </div>
-                  <p><h3 class="h3_we">3、调用 API/SDK</h3></p>
-                  <!-- <p class="p_we"></p> -->
-      					</div>
-                <div class="row_box_card">
-                  <!-- <a href="#"><img src="" alt="" />
-                    <div class="icon_box">
-      							</div>
-                  </a> -->
-                  <div class="">
-                    <img src="images/review.svg" alt="" />
-                  </div>
-                  <p><h3 class="h3_we">4、洞察商机</h3></p>
-                  <!-- <p class="p_we"></p> -->
-                </div>
+                <p><h3 class="h3_we">1、注册账户</h3></p>
+                <!-- <p class="p_we"></p> -->
               </div>
-          	</div>
-          </div>
+              <div class="row_box_card">
+                <!-- <a href="#"><img src="" alt="" />
+                  <div class="icon_box">
+    							</div>
+                </a> -->
+                <div class="">
+                  <img src="images/edit.svg" alt="" />
+                </div>
+                <p><h3 class="h3_we">2、上传资料</h3></p>
+                <p class="p_we">申请开户</p>
+              </div>
+    					<div class="row_box_card">
+    					  <!-- <a href="#"><img src="" alt="" />
+                  <div class="icon_box">
+    							</div>
+                </a> -->
+                <div class="">
+                  <img src="images/analysis.svg" alt="" />
+                </div>
+                <p><h3 class="h3_we">3、调用 API/SDK</h3></p>
+                <!-- <p class="p_we"></p> -->
+    					</div>
+              <div class="row_box_card">
+                <!-- <a href="#"><img src="" alt="" />
+                  <div class="icon_box">
+    							</div>
+                </a> -->
+                <div class="">
+                  <img src="images/review.svg" alt="" />
+                </div>
+                <p><h3 class="h3_we">4、洞察商机</h3></p>
+                <!-- <p class="p_we"></p> -->
+              </div>
+            </div>
+        	</div>
         </section>
         <section class="a_then">
-          <div class="width1156">
+          <div class="row_b">
 
-              <div class="row_b">
+  					<!-- section title -->
+            <div class="height"></div>
+  					<div class="our_services">
+  						<h2>集成<span class="green">支付</span></h2>
+  						<div class="border_about_us"></div>
+  					</div>
 
-      					<!-- section title -->
-                <div class="height"></div>
-      					<div class="our_services">
-      						<h2>集成<span class="green">支付</span></h2>
-      						<div class="border_about_us"></div>
-      					</div>
-                <!-- <div class="our_services_box">
-                  <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated animated" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
-        						<div class="service_block center">
-        							<div class="service_icon center">
-        								<i class="fa fa_wordpress fa_5x"></i>
-        							</div>
-        							<h3>多渠道</h3>
-        							<p>
-        							  微信</br>
-                        银联</br>
-                        支付宝</br>
-                        百度</br>
-                        京东</br>
-                        首信易</br>
-                        ...
-        							</p>
-        						</div>
-        					</article>
 
-                </div> -->
-
-                <div class="integrate_pay">
-                  <div class="integrate_pay_left">
-                    <!-- <a href=""><span>集成支付</span></a> -->
-                    <p>无论新兴企业亦或成熟企业转型互联网</p>
-                    <p>无论移动支付 亦或 网页支付</p>
-                    <p>Paying助您——————从容支付</p>
-                  </div>
-                  <div class="integrate_pay_right">
-                    <img class="integrate_img"src="images/pay_fenqi.svg" alt="">
-                  </div>
-                </div>
-            	</div>
-          </div>
+            <div class="integrate_pay">
+              <div class="integrate_pay_left">
+                <!-- <a href=""><span>集成支付</span></a> -->
+                <p>无论新兴企业亦或成熟企业转型互联网</p>
+                <p>无论移动支付 亦或 网页支付</p>
+                <p>Paying助您——————从容支付</p>
+              </div>
+              <div class="integrate_pay_right">
+                <img class="integrate_img"src="images/pay_fenqi.svg" alt="">
+              </div>
+            </div>
+        	</div>
         </section>
       </div>
       <div class="part_b">
         <section class="b_main">
-          <div class="width1156">
-            <div class="">
-              <div class="height"></div>
-              <div class="our_works">
-                <h2>集成<span class="green">分期</span></h2>
-                <div class="border_about_us"></div>
+          <div class="">
+            <div class="height"></div>
+            <div class="our_works">
+              <h2>集成<span class="green">分期</span></h2>
+              <div class="border_about_us"></div>
+            </div>
+            <div class="integrate_by_stages">
+              <div class="integrate_by_stages_left">
+                <img class="integrate_img_2"src="images/the_bag.svg" alt="">
               </div>
-              <div class="integrate_by_stages">
-                <div class="integrate_by_stages_left">
-                  <img class="integrate_img_2"src="images/the_bag.svg" alt="">
-                </div>
-                <div class="integrate_by_stages_right">
-                  <!-- <a href=""><span>集成支付</span></a> -->
-                  <p>无论新兴企业亦或成熟企业转型互联网</p>
-                  <p>无论移动支付 亦或 网页支付</p>
-                  <p>Paying助您——————从容支付</p>
-                </div>
+              <div class="integrate_by_stages_right">
+                <!-- <a href=""><span>集成支付</span></a> -->
+                <p>无论新兴企业亦或成熟企业转型互联网</p>
+                <p>无论移动支付 亦或 网页支付</p>
+                <p>Paying助您——————从容支付</p>
               </div>
             </div>
           </div>
@@ -242,52 +216,43 @@
 
     </article>
     <footer class="footer">
-      <div class="width1156">
-          <div class="footer_block">
+      <div class="footer_block">
 
-            <div class="float_left foot_content footer_one">
-              <div class="">
-                <h3>联系我们</h3>
-              </div>
-              <div class="margin-left20 num_box">
-                <p class="qq float_left">QQ群: 462020660<span></span></p>
-                <p class="p_tel">Tel: <span>13810725602</span></p>
-              </div>
-              <p class="margin-left20">邮箱：<a href="mailto:contactus@payingcloud.cn">contactus@payingcloud.cn</a></p>
-              <div class="margin-left20">地址：<span>北京市安定门外皇城国际#406</span></div>
-              <!-- <h3>联系我们</h3>
-              <p>QQ：<span>12345678</span></p>
-              <p>微信/微博</p>
-              <p>邮箱<span>contacus@payingcloud.cn</span></p>
-              <p>地址：北京市安定门外皇城国际#406</p>
-              <p>ICP备案</p> -->
-            </div>
-            <div class="float_left foot_content footer_two">
-              <div class="margin-left20 footer_two_welcome float_left">
-                <h3><a class="about_us"href="html/about_us.html">关于我们</a></h3>
-              </div>
-            </div>
-            <div class="float_left foot_content footer_three">
-              <div class="margin-left20 footer_three_welcome float_left">
-                <h3>Blog</h3>
-                <!-- <h3>Blog</h3> -->
-              </div>
-              <!-- <img src="images/QR_codeBig.jpg" alt=""> -->
-            </div>
-            <div class="float_left foot_content footer_four">
-              <div class="QR_core_pic float_left">
-                <img src="images/QR_codeBig.jpg" alt="">
-              </div>
-              <!-- <img src="images/QR_codeBig.jpg" alt=""> -->
-            </div>
+        <div class="float_left foot_content footer_one">
+          <div class="">
+            <h3>联系我们</h3>
           </div>
+          <div class="margin-left20 num_box">
+            <p class="qq float_left">QQ群: 462020660<span></span></p>
+            <p class="p_tel">Tel: <span>13810725602</span></p>
+          </div>
+          <p class="margin-left20">邮箱：<a href="mailto:contactus@payingcloud.cn">contactus@payingcloud.cn</a></p>
+          <div class="margin-left20">地址：<span>北京市安定门外皇城国际#406</span></div>
+
+        </div>
+        <div class="float_left foot_content footer_two">
+          <div class="margin-left20 footer_two_welcome float_left">
+            <h3><a class="about_us"href="html/about_us.html">关于我们</a></h3>
+          </div>
+        </div>
+        <div class="float_left foot_content footer_three">
+          <div class="margin-left20 footer_three_welcome float_left">
+            <h3>Blog</h3>
+            <!-- <h3>Blog</h3> -->
+          </div>
+          <!-- <img src="images/QR_codeBig.jpg" alt=""> -->
+        </div>
+        <div class="float_left foot_content footer_four">
+          <div class="QR_core_pic float_left">
+            <img src="images/QR_codeBig.jpg" alt="">
+          </div>
+          <!-- <img src="images/QR_codeBig.jpg" alt=""> -->
+        </div>
       </div>
       <div class="footer_bottom">
-        <div class="width1156">
-          <div class="icp">
-            <div class="icp_box">
-              <p class="icp">版权所有 Payingcloud. ICP备案</p>
-            </div>
+        <div class="icp">
+          <div class="icp_box">
+            <p class="icp">版权所有 Payingcloud. ICP备案</p>
           </div>
         </div>
       </div>

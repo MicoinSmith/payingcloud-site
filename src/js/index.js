@@ -11,7 +11,7 @@ window.onload=function(){
     function interval_play(){
       i++;
       if(i>n-1){i=0}
-      console.log(i);
+      // console.log(i);
       for (var j = 0; j < n; j++) {
         ibanner_list[j].style.display="none";
       }
