@@ -58,7 +58,7 @@ ul li{
   float: left;
 }
 .header_logo>a>img{
-  height: 60px;
+  height: 50px;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -228,7 +228,7 @@ ul li{
 .banner_list>a>img{
   height: 100%;
   width: 100%;
-  margin-top: -15px;
+  margin-top: -7px;
   min-width: 980px;
 }
 .banner_introduce{
@@ -634,7 +634,11 @@ ul li{
 }
 
 /*=================礼品中心========================*/
-
+.demo a img{
+  width: 40px;
+  float: left;
+  margin-right: 15px;
+}
 .gift img{
   width: 40px;
   float: left;
