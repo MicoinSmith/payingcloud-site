@@ -3,7 +3,17 @@
   padding: 0;
 }
 
-
+/*继承支付部分*/
+#login_font{
+  /*background: #1c1e23;*/
+  border-bottom: 3px solid #6bb56f;
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
 /*=================礼品中心========================*/
 
 .gift img{

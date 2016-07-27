@@ -4,6 +4,10 @@
   padding: 0;
 }
 /*html5*/
+html body{
+  width: 100%;
+  height: 100%;
+}
 article,aside,dialog,footer,header,section,footer,nav,figure,menu{
   display:block;
 }
@@ -22,6 +26,7 @@ ul li{
 }
 /*some start*/
 .color_ddd{
+
   color: #ddd;
 }
 .float_left{
@@ -163,6 +168,7 @@ ul li{
 .nav_nav{
   width: 80%;
   margin: auto;
+  max-width: 1200px;
 }
 .nav_ul{
   margin-top: 28px;
@@ -319,6 +325,7 @@ ul li{
 .row_box{
   width: 80%;
   margin: auto;
+  max-width: 1200px;
 }
 
 
@@ -444,14 +451,15 @@ ul li{
   width: 80%;
   margin: auto;
   height: 420px;
+  max-width: 1200px;
   /*border: 1px solid #787887;*/
 }
 .integrate_pay_left{
   float: left;
-  width: 47%;
+  width: 46%;
   height: 300px;
   margin-top: 35px;
-  margin-left: 55px;
+  margin-left: 60px;
   /*border: 1px solid #dda700;*/
 }
 .integrate_pay_left>a>span{
@@ -461,13 +469,13 @@ ul li{
   margin-left: 30px;
 }
 .integrate_pay_left>p{
-  font-size:27px;
-  margin: 50px 30px;
+  font-size:23px;
+  margin: 40px 30px;
   color: #ddd;
 }
 .integrate_pay_right{
   float: right;
-  width: 45%;
+  width: 49%;
   height: 300px;
   /*margin-top: 60px;
   margin-right: 55px;*/
@@ -475,9 +483,9 @@ ul li{
 }
 /*integrate_pay_right 图片*/
 .integrate_img{
-  width: 300px;
+  width: 330px;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .integrate_img_2{
   width: 300px;
@@ -515,6 +523,7 @@ ul li{
   width: 80%;
   margin: auto;
   height: 480px;
+  max-width: 1200px;
   /*border: 1px solid #787887;*/
 }
 
@@ -523,7 +532,7 @@ ul li{
   width: 36%;
   height: 300px;
   margin-top: 60px;
-  margin-left: 55px;
+  margin-left: 60px;
   /*border: 1px solid #bda400;*/
 }
 .integrate_by_stages_right{
@@ -556,6 +565,7 @@ ul li{
   width: 80%;
   margin: auto;
   height: 211px;
+  max-width: 1200px;
 }
 .foot_content{
   width: 25%;

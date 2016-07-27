@@ -7,7 +7,7 @@
     <title>Paying</title>
     <link rel="stylesheet" href="../css\index.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="../css\register.css" media="screen" title="no title" charset="utf-8">
-    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="../js/register.js"></script>
   </head>
   <body>
@@ -22,12 +22,12 @@
             <li><a href="../html\integrate_pay.html">服务</a></li>
             <!-- <li><a href="../html\Integration_stage.html">集成分期</a></li> -->
             <li><a href="../html\cooperative_partner.html">合作伙伴</a></li>
-            <!-- <li><a href="#">文档</a></li>
-            <li><a href="#">下载</a></li>
+            <li><a href="../html\document.html">文档</a></li>
+            <!-- <li><a href="#">下载</a></li>
             <li><a href="#">价格</a></li> -->
             <!-- <li class="gift"><a href="../html\gift.html"><img src="../images/gift.svg" alt="">礼品中心</a></li> -->
-            <!-- <li id="register_font"><a href="../html\register.html">注册</a></li>
-            <li><a href="#">登录</a></li> -->
+            <li id="register_font"><a href="../html\register.html">注册</a></li>
+            <li><a href="../html/login.html">登录</a></li>
           </ul>
         </nav>
       </div>
@@ -43,19 +43,21 @@
             </div>
 
 
-          <form class="register_form" action="../html\register.html" method="post" id="register_form" onsubmit="return check()">
+          <!-- <form class="register_form" id="register_form" onsubmit="return check()">
             <div class="register_input_box">
               <input  id="register_email" class="register_input" type="email" name="register_name" value="请输入您的邮箱" required oninvalid="check()" autofocus onfocus="this.value=''" onblur="if(this.value==''){this.value='请输入您的邮箱'}" size="22">
-            </div>
+            </div> -->
             <!-- <label for="inagree"></label> -->
-            <div class="register_agreement">
+            <!-- <div class="register_agreement">
               <input class="checkbox"type="checkbox" required value=""></input>
               <span>我已阅读并同意<a class="color_agreement" href="#">《服务协议》</a>和<a class="color_agreement" href="#">《隐私权协议》</a></span>
-            </div>
+            </div> -->
 
-            <input id="register_button"class="register_button"type="submit" name="button" onsubmit="return check()" value="发送验证邮件" onclick="check()">
+            <!-- <input id="register_button"class="register_button"type="submit" name="button" onsubmit="return check()" value="发送验证邮件" onclick="check()"> -->
+            <input id="register_button"class="register_button" type="button" name="button" value="发送验证邮件">
             <!-- <input id="hava_a_try" class="hava_a_try" type="button" name="name" value="have a try" onclick="(send())"> -->
-          </form>
+          <!-- </form> -->
+          <!-- <button id="register_button" onclick="onclick()">注册</button> -->
 
 
         </div>
@@ -139,7 +141,7 @@
         <div class="width1156">
           <div class="icp">
             <div class="icp_box">
-              <p class="icp">版权所有 Payingcloud. ICP备案</p>
+              <p class="icp">版权所有 Payingcloud. ICP备案16037159号</p>
             </div>
           </div>
         </div>

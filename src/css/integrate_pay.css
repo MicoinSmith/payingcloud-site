@@ -164,6 +164,7 @@
   margin: auto;
   margin-top: 45px;
   width: 80%;
+  max-width: 135px;
 }
 .card_title_box{
   width: 100%;

@@ -1,7 +1,4 @@
 // ===================================
-var A = new int();
-var B = new int();
-
 function reduce_a(){
   A = document.getElementById("change_a").value;
   if (A>0){
@@ -34,13 +31,23 @@ function backclose(){
 function sure_by(){
   A = document.getElementById("change_a").value;
   B = document.getElementById("change_b").value;
+  // A=parseInt(form.document.getElementById("change_a").value,10);
+  // B=parseInt(form.document.getElementById("change_b").value,10);
   var sum = A+B;
   if (sum>0){
     document.getElementById("sure_by_box").style.display="block";
     document.getElementById("pay_div_hidden").style.display="block";
+    // document.getElementById("total").innerHTML = "合计：¥ "+sum;
+    total();
+    function total(){
+      // alert(A);
+      sum = (parseInt(A)+parseInt(B))/10;
+      return sum;
+    }
+    document.getElementById("total").innerHTML = "合计：¥ "+sum;
     return false;
   }else{
-    alert("请选择需要购买的商品及数量！")
+    alert("请选择需要购买的商品及数量！");
     document.getElementById("change_a").value = 0;
     document.getElementById("change_b").value = 0;
     return false;

@@ -6,10 +6,10 @@
     <meta name="keywords" content="PAYINGCLOUD,PAY,PING">
     <title>Paying</title>
     <link rel="stylesheet" href="../css\index.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="../css\login.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css\document.css" media="screen" title="no title" charset="utf-8">
     <!-- <script type="text/javascript" src="../html\js/index.js"></script>
     <script type="text/javascript" src="../html\js/integrate_pay.js"></script> -->
-    <script src="../js/login.js" charset="utf-8"></script>
+    <script src="../js/document.js" charset="utf-8"></script>
   </head>
   <body>
     <header class="header">
@@ -21,9 +21,9 @@
           <ul class="nav_ul">
             <li class="demo"><a href="../html/gift.html"><img src="../images\案例.svg" alt="">Demo</a></li>
             <li><a href="../html\integrate_pay.html">服务</a></li>
-            <li id="Integration_stage_font"><a href="../html\Integration_stage.html">集成分期</a></li>
+            <!-- <li id="Integration_stage_font"><a href="../html\Integration_stage.html">集成分期</a></li> -->
             <li><a href="../html\cooperative_partner.html">合作伙伴</a></li>
-            <li><a href="../html\document.html">文档</a></li>
+            <li id="document_font"><a href="../html\document.html">文档</a></li>
             <!-- <li><a href="#">下载</a></li> -->
             <!-- <li><a href="#">价格</a></li> -->
             <!-- <li class="gift"><a href="../html\gift.html"><img src="../images/gift.svg" alt="">礼品中心</a></li> -->
@@ -35,34 +35,8 @@
     </header>
     <article class="article">
       <section class="section">
-        <div class="login_box">
-            <div class="login_title">
-              <h3>登&nbsp录</h3>
-              <!-- <p class="login_title_p">欢迎登陆Paying！</p> -->
-              <!-- <p class="login_title_p">PayingCloud: </br>&nbsp&nbspwill send an email to your logined email, please check it!</p> -->
-            </div>
-
-
-          <form class="login_form" action="../html\login.html" method="post" id="login_form" onsubmit="return login_check()">
-            <div class="login_input_box">
-
-              <input  id="login_email" class="login_input" type="email" name="login_name" value="请输入您的邮箱地址" required oninvalid="login_check()" autofocus onfocus="this.value=''" onblur="if(this.value==''){this.value='请输入您的邮箱'}" size="22">
-            </div>
-            <div class="login_input_box">
-
-              <input  id="login_password" class="login_input" type="password" name="login_password" placeholder="请输入密码" required oninvalid="login_check()" size="22">
-            </div>
-            <!-- <label for="inagree"></label> -->
-            <!-- <div class="login_agreement">
-              <input class="checkbox"type="checkbox" required value=""></input>
-              <span>我已阅读并同意<a class="color_agreement" href="#">《服务协议》</a>和<a class="color_agreement" href="#">《隐私权协议》</a></span>
-            </div> -->
-
-            <input id="login_button"class="login_button"type="submit" name="button" onsubmit="return login_check()" value="确&nbsp定" onclick="login_check()">
-            <!-- <input id="hava_a_try" class="hava_a_try" type="button" name="name" value="have a try" onclick="(send())"> -->
-          </form>
-
-
+        <div class="dommint_soon">
+          <p>文档即将上线，敬请期待。。。</p>
         </div>
       </section>
     </article>

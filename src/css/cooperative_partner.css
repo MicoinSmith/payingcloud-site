@@ -1,4 +1,6 @@
-
+html body{
+  min-width: 1377px;
+}
 /*header部分start*/
 
 /*继承支付部分*/

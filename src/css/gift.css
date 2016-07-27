@@ -94,7 +94,7 @@
 
 .section{
   width: 100%;
-  height: 1024px;
+  height: 950px;
   padding-top: 50px;
   background: #2B2C30;
 }
@@ -105,6 +105,14 @@
   /*background: #b0b0b0;*/
   border-radius: 15px;
   /*border: 2px solid #c0c0c0;*/
+}
+.order_experience{
+  width: 134px;
+  margin: auto;
+  color: #ddd;
+  font-size: 24px;
+  font-family: "microsoft yehei";
+  font-weight: 600;
 }
 .commodity{
   margin-top: 30px;
@@ -147,13 +155,13 @@ margin: 0;
   font-size: 18px;
   color: #6bb56f;
   position: absolute;
-  margin-left: 150px;
+  margin-left: 180px;
   margin-top: 25px;
 }
 .num_changebox_a,.num_changebox_b{
   width: 152px;
-  height: 430px;
-  margin-top: 70px;
+  /*height: 430px;*/
+  margin-top: 65px;
   margin-left: 120px;
 
 }
@@ -189,7 +197,7 @@ input::-webkit-inner-spin-button{
 .customer_information{
   margin: auto;
   width:680px;
-  height: 370px;
+  height: 335px;
 }
 .customer_information input{
   margin: auto;
@@ -238,24 +246,24 @@ input::-webkit-inner-spin-button{
 }
 /*--------------------------------------*/
 .should_knows{
-  font-size: 14px;
+  font-size: 16px;
   color: #ddd;
   font-family: "microsoft yahei";
-  margin-top: 10px;
+  margin-top: 13px;
   margin-left: 145px;
   font-weight: 400;
 }
 .should_knows p{
-  margin-top: 9px;
-  line-height: 20px;
+  margin-top: 30px;
+  line-height: 30px;
 }
 /*----------------------------------------------*/
 /*-----------------确认购买弹框------------------*/
 .sure_by_box{
   width: 720px;
-  height: 760px;
+  height: 815px;
   position: absolute;
-  top: 15%;
+  top: 13%;
   margin-left: -360px;
   left: 50%;
   background: #2B2C30;
@@ -264,7 +272,7 @@ input::-webkit-inner-spin-button{
 }
 .sure_top{
   width: 700px;
-  height: 100px;
+  height: 110px;
   border-bottom: 1px dashed #ddd;
   margin: auto;
 }
@@ -298,7 +306,7 @@ input::-webkit-inner-spin-button{
   width: 100%;
   /*border: 1px dashed #ddd;*/
   border-bottom: 1px dashed #ddd;
-  height: 470px;
+  height: 500px;
 }
 .sure_middle p{
   margin-left: 30px;
@@ -319,6 +327,14 @@ input::-webkit-inner-spin-button{
   font-family: "microsoft yahei";
   cursor: pointer;
   border: none;
+}
+.total{
+  color: #6bb56f;
+  font-size: 35px;
+  margin-left: 65px;
+  float: left;
+  margin-top: 47px;
+  font-family: "microsoft yahei";
 }
 .sure_pay_it:hover{
   color: #6bb56f;
@@ -380,9 +396,9 @@ input::-webkit-inner-spin-button{
 }
 .pay_div_hidden{
   width: 720px;
-  height: 170px;
+  height: 135px;
   background: #2B2C30;
-  margin-top: 190PX;
+  margin-top: 179PX;
   display: none;
 }
 /*register stop*/
