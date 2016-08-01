@@ -261,7 +261,7 @@ input::-webkit-inner-spin-button{
 /*-----------------确认购买弹框------------------*/
 .sure_by_box{
   width: 720px;
-  height: 815px;
+  height: 816px;
   position: absolute;
   top: 13%;
   margin-left: -360px;
@@ -398,7 +398,7 @@ input::-webkit-inner-spin-button{
   width: 720px;
   height: 135px;
   background: #2B2C30;
-  margin-top: 179PX;
+  margin-top: 180PX;
   display: none;
 }
 /*register stop*/

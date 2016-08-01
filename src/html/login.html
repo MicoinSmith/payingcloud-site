@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css\login.css" media="screen" title="no title" charset="utf-8">
     <!-- <script type="text/javascript" src="../html\js/index.js"></script>
     <script type="text/javascript" src="../html\js/integrate_pay.js"></script> -->
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.1.0.js"></script>
     <script src="../js/login.js" charset="utf-8"></script>
   </head>
   <body>
@@ -43,14 +45,16 @@
             </div>
 
 
-          <form class="login_form" action="../html\login.html" method="post" id="login_form" onsubmit="return login_check()">
+          <!-- <form class="login_form" action="../html\login.html" method="post" id="login_form" onsubmit="return login_check()"> -->
+          <form class="login_form" id="login_form">
             <div class="login_input_box">
 
-              <input  id="login_email" class="login_input" type="email" name="login_name" value="请输入您的邮箱地址" required oninvalid="login_check()" autofocus onfocus="this.value=''" onblur="if(this.value==''){this.value='请输入您的邮箱'}" size="22">
+              <!-- <input  id="login_email" class="login_input" type="email" name="login_name" value="请输入您的邮箱地址" required oninvalid="login_check()" autofocus onfocus="this.value=''" onblur="if(this.value==''){this.value='请输入您的邮箱'}" size="22"> -->
+              <input  id="login_email" class="login_input" type="email" name="login_name" value="请输入您的邮箱地址" required autofocus onfocus="this.value=''" onblur="if(this.value==''){this.value='请输入您的邮箱'}" size="22">
             </div>
             <div class="login_input_box">
 
-              <input  id="login_password" class="login_input" type="password" name="login_password" placeholder="请输入密码" required oninvalid="login_check()" size="22">
+              <input  id="login_password" class="login_input" type="password" name="login_password" placeholder="请输入密码" required size="22">
             </div>
             <!-- <label for="inagree"></label> -->
             <!-- <div class="login_agreement">
@@ -58,7 +62,8 @@
               <span>我已阅读并同意<a class="color_agreement" href="#">《服务协议》</a>和<a class="color_agreement" href="#">《隐私权协议》</a></span>
             </div> -->
 
-            <input id="login_button"class="login_button"type="submit" name="button" onsubmit="return login_check()" value="确&nbsp定" onclick="login_check()">
+            <!-- <input id="login_button"class="login_button"type="submit" name="button" onsubmit="return login_check()" value="确&nbsp定" onclick="login_check()"> -->
+            <input id="login_button"class="login_button"type="submit" name="button" value="确&nbsp定" >
             <!-- <input id="hava_a_try" class="hava_a_try" type="button" name="name" value="have a try" onclick="(send())"> -->
           </form>
 
@@ -90,6 +95,9 @@
             <div class="float_left foot_content footer_two">
               <div class="margin-left20 footer_two_welcome float_left">
                 <h3><a class="about_us"href="../html\about_us.html">关于我们</a></h3>
+                </br>
+                <h3 id="gift_center" class="gift_center" onclick="gift_center()"><a class="about_us">礼品中心</a></h3>
+                <img id="gift_center_qr_code" onclick="gift_center_qr_code_hidden()"class="gift_center_qr_code"src="../images\QR_codeBig.jpg" alt="">
               </div>
             </div>
             <div class="float_left foot_content footer_three">

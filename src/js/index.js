@@ -26,4 +26,10 @@ window.onload=function(){
     //   interval=setInterval(interval_play,1000);
     // };
   // }()
+};
+function gift_center() {
+  document.getElementById("gift_center_qr_code").style.display="block";
+}
+function gift_center_qr_code_hidden() {
+  document.getElementById("gift_center_qr_code").style.display="none";
 }

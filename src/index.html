@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>Paying</title>
     <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-3.1.0.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/index.js"></script>
 
     <!-- [if lt IE9]>
@@ -73,7 +74,7 @@
           <!-- <li><a href="#">价格</a></li> -->
           <!-- <li class="gift"><a href="html/gift.html"><img src="images/gift.svg" alt="">礼品中心</a></li> -->
           <li><a href="html/register.html">注册</a></li>
-          <li><a href="#">登录</a></li>
+          <li><a href="html/login.html">登录</a></li>
         </ul>
       </nav>
     </header>
@@ -237,6 +238,9 @@
         <div class="float_left foot_content footer_two">
           <div class="margin-left20 footer_two_welcome float_left">
             <h3><a class="about_us"href="html/about_us.html">关于我们</a></h3>
+            </br>
+            <h3 id="gift_center" class="gift_center" onclick="gift_center()"><a class="about_us">礼品中心</a></h3>
+            <img id="gift_center_qr_code" onclick="gift_center_qr_code_hidden()"class="gift_center_qr_code"src="images\QR_codeBig.jpg" alt="">
           </div>
         </div>
         <div class="float_left foot_content footer_three">

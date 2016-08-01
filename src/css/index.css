@@ -26,7 +26,6 @@ ul li{
 }
 /*some start*/
 .color_ddd{
-
   color: #ddd;
 }
 .float_left{
@@ -326,6 +325,19 @@ ul li{
   width: 80%;
   margin: auto;
   max-width: 1200px;
+}
+.gift_center{
+  cursor: pointer;
+}
+.gift_center_qr_code{
+  width: 80%;
+  /*position: absolute;*/
+  bottom: 0;
+  margin-top: -38%;
+  margin-left: 5%;
+  display: block;
+  /*display: none;*/
+  cursor: pointer;
 }
 
 

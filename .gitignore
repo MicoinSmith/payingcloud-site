@@ -1,3 +1,4 @@
 local/
 *.cmd
 *.jar
+*.bat
