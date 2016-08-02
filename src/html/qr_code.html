@@ -6,11 +6,12 @@
     <meta name="keywords" content="PAYINGCLOUD,PAY,PING">
     <title>Paying</title>
     <link rel="stylesheet" href="../css\index.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="../css\document.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css\qr_code.css" media="screen" title="no title" charset="utf-8">
     <!-- <script type="text/javascript" src="../html\js/index.js"></script>
     <script type="text/javascript" src="../html\js/integrate_pay.js"></script> -->
     <script type="text/javascript" src="../js/index.js"></script>
-    <script src="../js/document.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/jquery-3.1.0.js"></script>
+    <script src="../js/qr_code.js" charset="utf-8"></script>
   </head>
   <body>
     <header class="header">
@@ -22,9 +23,9 @@
           <ul class="nav_ul">
             <li class="demo"><a href="../html/gift.html"><img src="../images\案例.svg" alt="">Demo</a></li>
             <li><a href="../html\integrate_pay.html">服务</a></li>
-            <!-- <li id="Integration_stage_font"><a href="../html\Integration_stage.html">集成分期</a></li> -->
+            <li id="Integration_stage_font"><a href="../html\Integration_stage.html">集成分期</a></li>
             <li><a href="../html\cooperative_partner.html">合作伙伴</a></li>
-            <li id="document_font"><a href="../html\document.html">文档</a></li>
+            <li><a href="../html\document.html">文档</a></li>
             <!-- <li><a href="#">下载</a></li> -->
             <!-- <li><a href="#">价格</a></li> -->
             <!-- <li class="gift"><a href="../html\gift.html"><img src="../images/gift.svg" alt="">礼品中心</a></li> -->
@@ -36,8 +37,14 @@
     </header>
     <article class="article">
       <section class="section">
-        <div class="dommint_soon">
-          <p>文档即将上线，敬请期待。。。</p>
+        <div class="qr_box">
+          <div class="qr_box_top">
+            <img src="../images\QR_codeBig.jpg" alt="">
+          </div>
+          <div class="qr_box_down">
+            <p>扫描二维码</p>
+            <p>登录礼品中心</p>
+          </div>
         </div>
       </section>
     </article>
@@ -66,8 +73,8 @@
               <div class="margin-left20 footer_two_welcome float_left">
                 <h3><a class="about_us"href="../html\about_us.html">关于我们</a></h3>
                 </br>
-                <h3 id="gift_center" class="gift_center" onclick="gift_center()"><a href="../html/qr_code.html"target="_blank"class="about_us">礼品中心</a></h3>
-                <!-- <img id="gift_center_qr_code" onclick="gift_center_qr_code_hidden()"class="gift_center_qr_code"src="images\QR_codeBig.jpg" alt=""> -->
+                <h3 id="gift_center" class="gift_center" onclick="gift_center()"><a class="about_us" href="#">礼品中心</a></h3>
+                <!-- <img id="gift_center_qr_code" onclick="gift_center_qr_code_hidden()"class="gift_center_qr_code"src="../images\QR_codeBig.jpg" alt=""> -->
               </div>
             </div>
             <div class="float_left foot_content footer_three">
