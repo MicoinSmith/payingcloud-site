@@ -15,7 +15,7 @@
   var A = 0;
   var B = 0;
 
-  function reduce_a(){
+  function click_reduce_a(){
     A = document.getElementById("change_a").value;
     if (A>0){
       A = Number(A)-1;
@@ -29,7 +29,7 @@
       reduce_b();
     }
   }
-  function add_a(){
+  function click_add_a(){
     A = document.getElementById("change_a").value;
     A = Number(A)+1;
     document.getElementById("change_a").value = A;
@@ -40,7 +40,7 @@
     }
   }
 
-  function reduce_b(){
+  function click_reduce_b(){
     B = document.getElementById("change_b").value;
     if (B>0){
       B = Number(B)-1;
@@ -52,7 +52,7 @@
       reduce_a();
     }
   }
-  function add_b(){
+  function click_add_b(){
     B = document.getElementById("change_b").value;
     B = Number(B)+1;
     document.getElementById("change_b").value = B;
@@ -112,10 +112,15 @@
 
   // ==========================================================
 $(document).ready(function(){
+  // var  size_point_a = document.getElementById("size_point_a").value;
+  // var  size_point_b = document.getElementById("size_point_b").value;
+  // alert(size_point_a);
   $("#total").click(function(){
     // sum = Number(A)+Number(B);
     if ((A == 0) & (B == 0)) {
       alert("请选择商品");
+    // }else if (size_point_a == 0) & (size_point_b == 0)) {
+    //   alert("请选择尺寸");
     }else {
       $("#main_page").css("height","0");
       $("#next_page").css("height","100%");
@@ -234,3 +239,94 @@ function saveMessage(){
 //      }
 //    });
 // });
+
+  function click_size_s_a(){
+    document.getElementById("size_s_a").style.border="1px solid #104c00";
+    document.getElementById("size_m_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_a").value = 1;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_m_a(){
+    document.getElementById("size_s_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_a").style.border="1px solid #104c00";
+    document.getElementById("size_l_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_a").value = 2;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_l_a(){
+    document.getElementById("size_s_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_a").style.border="1px solid #104c00";
+    document.getElementById("size_xl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_a").value = 3;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_xl_a(){
+    document.getElementById("size_s_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_a").style.border="1px solid #104c00";
+    document.getElementById("size_xxl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_a").value = 4;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_xxl_a(){
+    document.getElementById("size_s_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_a").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_a").style.border="1px solid #104c00";
+    document.getElementById("size_point_a").value = 5;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_s_b(){
+    document.getElementById("size_s_b").style.border="1px solid #104c00";
+    document.getElementById("size_m_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_b").value = 6;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_m_b(){
+    document.getElementById("size_s_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_b").style.border="1px solid #104c00";
+    document.getElementById("size_l_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_b").value = 7;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_l_b(){
+    document.getElementById("size_s_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_b").style.border="1px solid #104c00";
+    document.getElementById("size_xl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_b").value = 8;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_xl_b(){
+    document.getElementById("size_s_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_b").style.border="1px solid #104c00";
+    document.getElementById("size_xxl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_point_b").value = 9;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }
+  function click_size_xxl_b(){
+    document.getElementById("size_s_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_m_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_l_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xl_b").style.border="1px solid #1c1e23";
+    document.getElementById("size_xxl_b").style.border="1px solid #104c00";
+    document.getElementById("size_point_b").value = 10;
+    // document.getElementById("pay_zhifubao").style.marginTop="29px";
+  }

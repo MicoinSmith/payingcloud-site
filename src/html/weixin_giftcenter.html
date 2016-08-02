@@ -30,18 +30,34 @@
             <img src="../images\gift_a.png" alt="" />
             <div class="inform">
               <p>¥58 /件</p>
-              <button id="reduce_a" class="reduce_a" onclick="reduce_a()">-</button>
+              <div class="size_choose">
+                <div id="size_point_a"class="size_point_a" style="display:none">0</div>
+                <span id="size_s_a"class="size_s_a" onclick="click_size_s_a()">S</span>
+                <span id="size_m_a"class="size_m_a" onclick="click_size_m_a()">M</span>
+                <span id="size_l_a"class="size_l_a" onclick="click_size_l_a()">L</span>
+                <span id="size_xl_a"class="size_xl_a" onclick="click_size_xl_a()">XL</span>
+                <span id="size_xxl_a"class="size_xxl_a" onclick="click_size_xxl_a()">XL</span>
+              </div>
+              <button id="reduce_a" class="reduce_a" onclick="click_reduce_a()">-</button>
               <input id="change_a" class="num_change_a" type="number" name="num_change_a" value="0">
-              <button id="add_a" class="add_a" onclick="add_a()">+</button>
+              <button id="add_a" class="add_a" onclick="click_add_a()">+</button>
             </div>
           </div>
           <div class="commodity_b">
             <img src="../images\gift_b.png" alt=""/>
             <div class="inform">
               <p>¥88 /件</p>
-              <button id="reduce_b" class="reduce_b" onclick="reduce_b()">-</button>
+              <div class="size_choose">
+                <div id="size_point_b"class="size_point_b" style="display:none">0</div>
+                <span id="size_s_b"class="size_s_b" onclick="click_size_s_b()">S</span>
+                <span id="size_m_b"class="size_m_b" onclick="click_size_m_b()">M</span>
+                <span id="size_l_b"class="size_l_b" onclick="click_size_l_b()">L</span>
+                <span id="size_xl_b"class="size_xl_" onclick="click_size_xl_b()">XL</span>
+                <span id="size_xxl_b"class="size_xxl_b" onclick="click_size_xxl_b()">XL</span>
+              </div>
+              <button id="reduce_b" class="reduce_b" onclick="click_reduce_b()">-</button>
               <input id="change_b" class="num_change_b" type="number" name="num_change_b" value="0">
-              <button id="add_b" class="add_b" onclick="add_b()">+</button>
+              <button id="add_b" class="add_b" onclick="click_add_b()">+</button>
             </div>
           </div>
         </div>
