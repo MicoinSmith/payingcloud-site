@@ -21,7 +21,7 @@ $(document).ready(function(){
           alert("Fine,it's ok!");
         },
         error:function(request){
-          //  alert("well,there have something wrong~!")
+          //  alert("well,there have something wrong~!");
         }
       });
       alert("邮件已经发送，请注意查收！");

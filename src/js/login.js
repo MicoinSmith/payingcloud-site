@@ -26,7 +26,7 @@ $(document).ready(function(){
 
           }
         });
-        alert("login success!")
+        alert("login success!");
       }else {
         alert("请核对信息!");
       }
